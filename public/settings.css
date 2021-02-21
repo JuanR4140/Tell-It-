@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1, h2{
+  font-family: Roboto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#logout{
+  transition-duration: 1s;
+  outline: none;
+  cursor: pointer;
+  font-size: 50px;
+  border-radius: 8px;
+  border-color: black;
+  background: #ff0000;
+  box-shadow:  20px 20px 60px #000000, -20px -20px 60px #000000;
+
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+}
+
+#logout:hover{
+  transition-duration: 1s;
+  background: darkred;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tell It - Make Tellit</title>
+    <link rel="stylesheet" href="make.css" type="text/css">
+    <link rel="stylesheet" href="other/mobileCSS.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.js" integrity="sha512-+l9L4lMTFNy3dEglQpprf7jQBhQsQ3/WvOnjaN/+/L4i0jOstgScV0q2TjfvRF4V+ZePMDuZYIQtg5T4MKr+MQ==" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="https://tell-it-new.juanr4140.repl.co/home.html">Home</a></li>
+      <li><a href="https://tell-it-new.juanr4140.repl.co/make.html">Make a Tellit</a></li>
+      <li><a href="https://tell-it-new.juanr4140.repl.co/read.html">Read Tellits</a></li>
+      <li><a href="https://tell-it-new.juanr4140.repl.co/settings.html">Account Settings</a></li>
+    </ul>
+    <h1 style="text-align: left; font-size: 50px;">Welcome to the Make-A-Tellit Workshop!</h1>
+    <div id="container">
+      <h2>Enter Tellit Title:</h2>
+      <input type="text" placeholder="This is my Tellit Title!" id="titleField">
+      <h2>Enter Tellit Content:</h2>
+      <input type="text" placeholder="This is the content of my Tellit!" id="contentField">
+      <h2 id="author">By: [user]</h2>
+      <input type="button" value="Post your Tellit!" id="writeBtn">
+    </div>
+    <script src="make.js"></script>
+    <script src="./other/sessionCheck.js"></script>
+  </body>
+</html>
